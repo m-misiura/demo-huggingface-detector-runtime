@@ -35,10 +35,10 @@ oc apply -f resources/serving_runtime.yaml
 oc apply -f resources/isvc.yaml
 ```
 
-Within the namespace, you should see [the following pods](images/hap_pods.png): 
+Within the namespace, you should see ![the following pods](images/hap_pods.png): 
 
-1. One pod for the model storage container
-2. One pod for the model's inference service
+    - one pod for the model storage container
+    - one pod for the model's inference service
 
 5. Create a route to access the inference service:
 
